@@ -30,11 +30,10 @@ async function changeFiele(content, cookie) {
     //替换各种信息.
     content = content.replace("const notifyInterval=2", `const notifyInterval=2\nconst notify = $.isNode() ? require('./sendNotify') : '';`)
     content = content.replace(/\$\.msg\(jsname,''/g, "notify.sendNotify(jsname")
-    content = content.replace("$.getdata(qqreadurlKey)", "\"https://mqqapi.reader.qq.com/mqq/user/init\"")
-    content = content.replace("$.getdata(qqreadheaderKey)", JSON.stringify(cookie.split("@")[0]))
-    content = content.replace("$.getdata(qqreadtimeurlKey)", JSON.stringify(cookie.split("@")[1]))
-    content = content.replace("$.getdata(qqreadtimeheaderKey)", JSON.stringify(cookie.split("@")[2]))
-    //console.log(content);
+    content = content.replace("$.getdata(qqreadurlKey)", JSON.stringify(cookie.split("@")[0]))
+    content = content.replace("$.getdata(qqreadheaderKey)", JSON.stringify(cookie.split("@")[1]))
+    content = content.replace("$.getdata(qqreadtimeurlKey)", JSON.stringify(cookie.split("@")[2]))
+    content = content.replace("$.getdata(qqreadtimeheaderKey)", JSON.stringify(cookie.split("@")[3]))
     await fs.writeFileSync('./execute.js', content, 'utf8')
 }
 
@@ -44,7 +43,6 @@ async function deleteFile(path) {
     // console.log('fileExists', fileExists);
     if (fileExists) {
         const unlinkRes = await fs.unlinkSync(path);
-        // console.log('unlinkRes', unlinkRes)
     }
 }
 
@@ -91,8 +89,6 @@ async function msg(content) {
 }
 
 async function start() {
-    //console.log(`当前执行时间:${new Date().toString()}`);
-    console.log(`国际时间 (UTC+00)：${new Date().toLocaleString()}`)
     console.log(`北京时间 (UTC+08)：${new Date(new Date().getTime() + 8 * 60 * 60 * 1000).toLocaleString()}\n`)
     if (!Secrets.COOKIE_QEYD) {
         console.log("请填写 COOKIE_QEYD 后在继续");
