@@ -16,7 +16,7 @@ const Secrets = {
     BARK_PUSH: process.env.BARK_PUSH, //Bark推送
     TG_BOT_TOKEN: process.env.TG_BOT_TOKEN, //TGBot推送Token
     TG_USER_ID: process.env.TG_USER_ID, //TGBot推送成员ID
-    COOKIE_QEYD: process.env.COOKIE_QEYD, //企鹅阅读ck
+    COOKIE_QQYD: process.env.COOKIE_QQYD, //企鹅阅读ck
 };
 let Cookies = [];
 
@@ -90,8 +90,8 @@ async function msg(content) {
 
 async function start() {
     console.log(`北京时间 (UTC+08)：${new Date(new Date().getTime() + 8 * 60 * 60 * 1000).toLocaleString()}\n`)
-    if (!Secrets.COOKIE_QEYD) {
-        console.log("请填写 COOKIE_QEYD 后在继续");
+    if (!Secrets.COOKIE_QQYD) {
+        console.log("请填写 COOKIE_QQYD 后在继续");
         return;
     }
     if (!Secrets.SyncUrl) {
