@@ -1,7 +1,7 @@
 const exec = require('child_process').execSync
 const fs = require('fs')
 const download = require('download')
-const smartReplace = require("../smartReplace");
+const smartReplace = require("../ModifySmartReplace.js");
 
 const $ = new Env('企鹅阅读');
 const notify = $.isNode() ? require('../sendNotify') : '';
@@ -25,7 +25,8 @@ async function downFile() {
 //替换内容
 async function changeFiele() {
     let content = await fs.readFileSync("./temp.js", "utf8");
-    content = await smartReplace.replaceWithSecrets(content, Secrets);
+    content = await 
+    place.replaceWithSecrets(content, Secrets);
     //console.log(content);
     await fs.writeFileSync("./execute.js", content, "utf8");
     console.log("替换变量完毕");
