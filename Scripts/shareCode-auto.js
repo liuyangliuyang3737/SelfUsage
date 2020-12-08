@@ -1,23 +1,23 @@
 const $ = new Env("互助码提交");
 const shareCodes = [
   {
-     zd:"mlrdw3aw26j3w2a4wkystsja4m4qqbwwlo6xfqi",
-    nc:"f659e47c5ef748539facfefa76ddb8de",
-    mc:"MTAxODc2NTEzNDAwMDAwMDAzMjExMzk5Mw==",
+     zd:"lpt33uehxfhcntg5vsufsfm23a3h7wlwy7o5jii",
+    nc:"80575fed170249b486c6a1aed6144da3",
+    mc:"MTE1NDQ5MzYwMDAwMDAwMzU1MjgxNTU=",
     ddgc:"P04z54XCjVWnYaS5jQADmP53HlPkQfN7qk",
     jxgc:"K9t1_nz-KL52qF61Mq7Wvg==",
   },
   {
-    zd:"mlrdw3aw26j3w2a4wkystsja4m4qqbwwlo7xfqi",
-    nc:"eb5edbd87cb940039403c9ff37868866",
-    mc:"MTE1NDQ5OTUwMDAwMDAwMzU1MjgyNDE=",
+    zd:"mlrdw3aw26j3xssxewwotjza4tkvu3dmoekcmwq",
+    nc:"347b1de5ebba465c9bee19280e022634",
+    mc:"MTE1NDQ5OTIwMDAwMDAwMzY4NzQ3MjM=",
     ddgc:"P04z54XCjVWnYaS5m9cZ2X53ntOkRmbCiipA6o",
     jxgc:"pX1CnIMc5Kwk6Fdb5o5AZg==",
   },
   {
-    zd:"mlrdw3aw26j3w2a4wkystsja4m4qqbwwlo8xfqi",
-    nc:"f0b835c73b784ba8a4efbe95a91e899e",
-    mc:"MTE1NDAxNzYwMDAwMDAwMzU1NTQyMDE=",
+    zd:"2i7mjkub3tdaeyv7wkcsbslsny",
+    nc:"76bcd7330787403ea050624ccfba34f9",
+    mc:"MTE1NDUyMjEwMDAwMDAwMzY4NjgzNjc=",
     ddgc:"P04z54XCjVWnYaS5nFXVjf51HVKkuE",
     jxgc:"",
   }
