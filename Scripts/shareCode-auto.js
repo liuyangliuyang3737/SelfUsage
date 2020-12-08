@@ -4,35 +4,21 @@ const shareCodes = [
      zd:"mlrdw3aw26j3w2a4wkystsja4m4qqbwwlo6xfqi",
     nc:"f659e47c5ef748539facfefa76ddb8de",
     mc:"MTAxODc2NTEzNDAwMDAwMDAzMjExMzk5Mw==",
-    ddgc:"P04z54XCjVWnYaS5m9cZ2Wpj3QfwKh9xCswWug",
+    ddgc:"P04z54XCjVWnYaS5jQADmP53HlPkQfN7qk",
     jxgc:"K9t1_nz-KL52qF61Mq7Wvg==",
   },
   {
     zd:"mlrdw3aw26j3w2a4wkystsja4m4qqbwwlo7xfqi",
     nc:"eb5edbd87cb940039403c9ff37868866",
     mc:"MTE1NDQ5OTUwMDAwMDAwMzU1MjgyNDE=",
-    ddgc:"P04z54XCjVWnYaS5m9cZ2b6iXQYlEmfbB6AHDo",
+    ddgc:"P04z54XCjVWnYaS5m9cZ2X53ntOkRmbCiipA6o",
     jxgc:"pX1CnIMc5Kwk6Fdb5o5AZg==",
   },
   {
     zd:"mlrdw3aw26j3w2a4wkystsja4m4qqbwwlo8xfqi",
     nc:"f0b835c73b784ba8a4efbe95a91e899e",
     mc:"MTE1NDAxNzYwMDAwMDAwMzU1NTQyMDE=",
-    ddgc:"P04z54XCjVWnYaS5m9cZ2TwiXpKwME62Y10F_U",
-    jxgc:"",
-  },
-  {
-    zd:"mlrdw3aw26j3xsgftkyvutj2p6thardpdspqi5q",
-    nc:"2760f4a49f1f485bbcca656ab8b426ee",
-    mc:"MTAxODc2NTEzMjAwMDAwMDAyODE5MzY1MQ==",
-    ddgc:"P04z54XCjVWnYaS5m9cZ2Wu1HlOlqaC3TgGxCQ",
-    jxgc:"",
-  },
-  {
-    zd:"mlrdw3aw26j3w2a4wkystsja4m4qqbwwlo9xfqi",
-    nc:"e7f3423d7043418da550fa8b1aba0a77",
-    mc:"MTE1NDQ5OTUwMDAwMDAwMzYwNDk0Nzc=",
-    ddgc:"",
+    ddgc:"P04z54XCjVWnYaS5nFXVjf51HVKkuE",
     jxgc:"",
   }
 ];
