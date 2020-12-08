@@ -5,14 +5,14 @@ const shareCodes = [
     nc:"f659e47c5ef748539facfefa76ddb8de",
     mc:"MTAxODc2NTEzNDAwMDAwMDAzMjExMzk5Mw==",
     ddgc:"P04z54XCjVWnYaS5m9cZ2Wpj3QfwKh9xCswWug",
-    jxgc:"9XtlAv2wWN1_1cG-TYj1TA==",
+    jxgc:"K9t1_nz-KL52qF61Mq7Wvg==",
   },
   {
     zd:"mlrdw3aw26j3w2a4wkystsja4m4qqbwwlo7xfqi",
     nc:"eb5edbd87cb940039403c9ff37868866",
     mc:"MTE1NDQ5OTUwMDAwMDAwMzU1MjgyNDE=",
     ddgc:"P04z54XCjVWnYaS5m9cZ2b6iXQYlEmfbB6AHDo",
-    jxgc:"",
+    jxgc:"pX1CnIMc5Kwk6Fdb5o5AZg==",
   },
   {
     zd:"mlrdw3aw26j3w2a4wkystsja4m4qqbwwlo8xfqi",
