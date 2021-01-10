@@ -19,7 +19,7 @@ const shareCodes = [
     nc:"76bcd7330787403ea050624ccfba34f9",
     mc:"MTE1NDUyMjEwMDAwMDAwMzY4NjgzNjc=",
     ddgc:"P04z54XCjVWnYaS5nFXVjf51HVKkuE",
-    jxgc:"",
+    jxgc:"JUpv9ECwYxWSE-tUFkuyvA==",
   }
 ];
 $.result = [];
